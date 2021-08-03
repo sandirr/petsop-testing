@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.bg-primary-c{
+  background-color: #7453AB;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-secondary-c{
+  background: rgba(150, 137, 165, 0.23);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.color-primary{
+  color: #7453AB;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hr-bottom{
+  border: 2px solid #7453AB;
+  width: 48px;
 }
 
-.App-link {
-  color: #61dafb;
+.padding-lg{
+  padding: 34px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.padding-md{
+  padding: 27px;
 }
+
+.float-right{
+  right: 0;
+}
+
+.float-left{
+  float: left;
+}
+
+.wrapper{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar-logo{
+  width: 100px;
+}
+
+.card-default{
+  width: 214px;
+  border-radius: 22px;
+}
+
+.card-image{
+  padding: 12px 16px;
+  height: 238px;
+}
+

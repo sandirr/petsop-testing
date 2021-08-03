@@ -8,18 +8,16 @@ import Main from './page/Main';
 function App() {
   const history = useHistory()
   return (
-    <div className="wrapper">
-      <Router>
-        <Switch>
-          <Route path="/">
-            <Main/>
-          </Route>
-          <Route path="/login">
-            <Login/>
-          </Route>
-        </Switch>
-      </Router>
-    </div>
+    <Router >
+      <div className="wrapper">
+      <Switch>
+        
+          <Route path="/login" component={Login} />
+          <Route path="/" component={Main} />
+        
+      </Switch>
+      </div>
+    </Router>
   );
 }
 

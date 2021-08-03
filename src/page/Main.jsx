@@ -20,7 +20,7 @@ function Main() {
 
   const toLogin = () =>{
     // setIslLogin(false)
-    history.push('/login')
+    history.replace('/login')
   }
 
   return ( 
@@ -61,11 +61,11 @@ function Main() {
         } */}
 
       <Switch>
-        <Route exact path="/" component={Beranda}></Route>
+        <Route exact path="/" component={Beranda}/>
         {/* <Route path="/login" component={Login}></Route> */}
-        <Route path="/products" component={ProdukLainnya}></Route>
-        <Route path="/produk/detail" component={DetailProduk}></Route>
-        <Route path="/daftar-pesanan" component={PesananProduk}></Route>
+        <Route exact path="/products" component={ProdukLainnya}/>
+        <Route path="/produk/detail" component={DetailProduk}/>
+        <Route path="/daftar-pesanan" component={PesananProduk}/>
           {/* <DetailProduk/>
         </Route> */}
       </Switch>
